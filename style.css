@@ -1,0 +1,169 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+
+.cf::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%
+}
+
+.bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    display: flex;
+    padding-left: 56px;
+    color: cyan;
+    font-size: 15pt;
+    font-weight: 900;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h3{
+    text-align: center;
+}
+
+#home {    
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1547660010-756e1b77bc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: blue;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    float: right;
+    justify-content: center;
+    align-content: center;
+}
+
+.aside p, h2{
+    padding-left: 10%;
+    line-height: 1.5;
+    margin-bottom: 4%;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+h3{
+    padding: 3%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button{
+    background-color: cyan;
+    width: 170px;
+    margin-left:64px;
+    text-align: center;
+    padding: 17px;
+}
+
+
+article:not(.aside):not(.logo):not(.skills){
+    width: 900px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+#about{
+    width: 100%;
+    height: 264px;
+}
+
+
+#work{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%
+
+}
+
+.skills{
+    width:50%;
+    padding:65px; 
+}
+
+.skills h2{
+    padding-top: 140px;
+    padding-left: 0px;
+}
+
+.progress{
+    margin:10px 0px 0px 0px;
+    width:100%;
+    height: 5px;
+    background-color:lightgray;
+}
+
+.progress1{
+    width:75%;
+    background-color: blue;
+    height:3px;
+}
+.progress2{
+    width:90%;
+    background-color: blue;
+    height:3px;
+}
+
+.progress3{
+    width:65%;
+    background-color: blue;
+    height:3px;
+}
+
+h1{
+    line-height: 4;
+}
